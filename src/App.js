@@ -1,9 +1,17 @@
-function App() {
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
+//components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello world!</h1>
-    </div>
+    <Router>
+      <Navbar />
+
+      <Footer />
+    </Router>
   );
-}
+};
 
 export default App;
