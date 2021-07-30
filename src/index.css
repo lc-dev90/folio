@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+  max-width: 90%;
+}
