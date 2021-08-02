@@ -31,7 +31,7 @@ const Navbar = () => {
         </ul>
         <div className="nav__resume">
           <a
-            href="https://www.download.com/curriculum"
+            href="https://drive.google.com/file/d/1rPYHDj4LGWDSPmFWhKt8ErrYZLW_qFbx/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,9 +54,10 @@ const Nav = styled.nav`
       display: flex;
       align-items: center;
       a {
-        border: 2px solid black;
-        padding: 10px;
+        border: 1px solid black;
+        padding: 12px 24px;
         border-radius: 50px;
+        font-size: 14px;
       }
     }
     a {
@@ -74,6 +75,7 @@ const Nav = styled.nav`
       align-items: center;
       a {
         padding: 1rem;
+        border-radius: 3px;
         &:hover {
           background: #dc493a;
           color: white;
